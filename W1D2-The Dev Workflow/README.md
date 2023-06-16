@@ -7,6 +7,12 @@
 - Writing code incrementally
 - Basic git workflow (init -> add -> commit -> push)
 
+* [] Curriculum overview
+* [] Problem solving tips
+* [] Writing code incrementally
+* [] Basic git workflow (init -> add -> commit -> push)
+
+
 ### Problem solving tips
 ---
 

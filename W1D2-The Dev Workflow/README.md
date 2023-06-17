@@ -2,10 +2,10 @@
 
 ## Topics to cover
 
-* [X] 1. Curriculum overview
-* [X] 2. Problem solving tips
-* [X] 3. Writing code incrementally
-* [X] 4. Basic git workflow (init -> add -> commit -> push)
+* [] Curriculum overview
+* [] Problem solving tips
+* [] Writing code incrementally
+* [] Basic git workflow (init -> add -> commit -> push)
 
 
 ### Problem solving tips

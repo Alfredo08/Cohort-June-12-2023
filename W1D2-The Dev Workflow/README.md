@@ -1,5 +1,5 @@
-# M02 W01 The Dev Workflow
-[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W1D2-The%20Dev%20Workflow). | [Vimeo Video Recording](https://vimeo.com/manage/videos/837210540/cc49cb6709)
+# M01 W01 The Dev Workflow
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W1D2-The%20Dev%20Workflow) | [Vimeo Video Recording](https://vimeo.com/manage/videos/837210540/cc49cb6709)
 ## Topics to cover
 
 * [X] Curriculum overview

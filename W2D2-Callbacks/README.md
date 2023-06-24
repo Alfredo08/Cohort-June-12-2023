@@ -1,5 +1,6 @@
 # M01 W02 | Callbacks
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023) | [Vimeo Video Recording](https://vimeo.com/839329490/c4fbb9721c?share=copy)
+
 ## Topics to cover
 
 * [X] Functions as values

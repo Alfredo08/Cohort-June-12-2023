@@ -1,5 +1,5 @@
 # M02 W05 | Promises
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W05M02%20-%20Promises) | [Vimeo Video Recording](https://vimeo.com/845579542/aea8af9e7f?share=copy)
 
 ## Topics to cover
 

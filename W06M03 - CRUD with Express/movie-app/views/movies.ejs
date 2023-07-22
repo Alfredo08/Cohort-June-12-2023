@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Movies </title>
+    </head>
+    <body>
+        <h1> List of movies </h1>
+        <% for(let movie of movieList){ %>
+            <p> Title: <%= movie.title %> </p>
+            <p> <a href="/api/movie/<%= movie.id %>"> Show movie details </a> </p>
+            <p> <a href="/api/movie/edit/<%= movie.id %>"> Edit movie </a> </p>
+        <% } %>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Movie Detail </title>
+    </head>
+    <body>
+        <% if(issue){ %>
+            <h2> <%= issue %> </h2>
+        <%} else{ %>
+            <h1> Title: <%= movie.title %> </h1>
+            <p> Director: <%= movie.director %> </p>
+            <p> Id: <%= movie.id%> </p>
+            <form method="POST" action="/api/delete/movie/<%= movie.id %>">
+                <button type="submit">
+                    Delete movie
+                </button>
+            </form>
+        <% } %>
+        <a href="/api/movies"> Home </a>
+    </body>
+</html>

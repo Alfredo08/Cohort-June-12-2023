@@ -68,5 +68,5 @@ OR
 
 ### Useful Links
 
-* (JS .splice documentation)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]
-* (Status codes)[https://www.restapitutorial.com/httpstatuscodes.html]
+* [JS .splice documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+* [Status codes](https://www.restapitutorial.com/httpstatuscodes.html)

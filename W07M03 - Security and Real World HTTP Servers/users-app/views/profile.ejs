@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+
+<body>
+    <!-- Check if a user is logged in, if they are, display their info -->
+    <% if(user){%>
+        <h1>Welcome <%= user.email %>!</h1>
+        <form method="POST" action="/logout">
+            <button type="submit">Logout</button>
+        </form>
+    <% } else { %>
+        <h1>Please log in first before visiting this page!</h1>
+        <form method="GET" action="/login">
+            <button type="submit">Send me to the Login Page</button>
+        </form>
+    <% } %>
+    <!-- Else, display a button and message to redirect to the login page -->
+</body>
+
+</html>

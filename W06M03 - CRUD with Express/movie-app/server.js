@@ -66,7 +66,7 @@ app.get('/api/movie/edit/:movieId', (req, res) => {
     res.render('edit-movie', templateVars);
 });
 
-app.post('/api/new/movie', (req, res) => {
+app.post('/api/movie/new', (req, res) => {
     const newMovie = req.body;
     newMovie.id = uid(3);
     console.log( newMovie);

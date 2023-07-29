@@ -1,5 +1,5 @@
 # M03 W07 | Security and Real World HTTP Servers
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W07M03%20-%20Security%20and%20Real%20World%20HTTP%20Servers) | [Vimeo Video Recording]()
 
 ## Topics to cover
 

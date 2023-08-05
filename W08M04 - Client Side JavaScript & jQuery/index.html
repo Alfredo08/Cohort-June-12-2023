@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Client Side JavaScript a& jQuery </title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1> 
+                Registry Form 
+            </h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li id="home"> 
+                    Home 
+                </li>
+                <li id="about"> 
+                    About the site 
+                </li>
+                <li id="registry" class="selected"> 
+                    Registry 
+                </li>
+                <li id="contact"> 
+                    Contact 
+                </li>
+                <li id="copyright"> 
+                    Copyright 
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="registrySection" class="currentSelected">
+                <form>
+                    <fieldset>
+                        <legend>
+                        New Account Registry
+                        </legend>
+                        <span class="info"> 
+                        Your information is safe with us 
+                        </span>
+                        <div>
+                            <p>
+                                <label for="fullName"> Complete name </label>
+                            </p>
+                            <input class="formElement" id="fullName" type="text" name="fullName"> 
+                            <span class="errorMessage" id="fullNameErrorMessage">  </span>
+                        </div>
+                        <div>
+                            <p>
+                                <label for="email"> Email </label>
+                            </p>
+                            <input class="formElement" id="email" type="text" name="email">
+                            <span class="errorMessage" id="emailErrorMessage" hidden>Please provide your email</span>
+                        </div>
+                        <div>
+                            <p>
+                                <label for="password"> Password </label>
+                            </p>
+                            <input class="formElement" id="password" type="password" name="password">
+                            <span class="errorMessage" id="passwordErrorMessage"></span>
+                        </div>
+                        <div>
+                            <p>
+                                <label for="passwordConfirmation"> Password confirmation </label>
+                            </p>
+                            <input class="formElement" id="passwordConfirmation" type="password" name="passwordConfirmation">
+                            <span class="errorMessage" id="passwordConfErrorMessage"></span>
+                        </div>
+                        <div>
+                            <p>Country</p>
+                            <select id="country" name="country">
+                                <option value="0"> Select a country... </option>
+                                <option value="CA"> Canada </option>
+                                <option value="MX"> Mexico </option>
+                                <option value="US"> USA </option>
+                            </select>
+                            <span class="errorMessage" id="countryErrorMessage"> </span>
+                        </div>
+                        <div>
+                            <p>
+                                Gender <span class="errorMessage" id="genderErrorMessage" ></span>
+                            </p> 
+                            <p>
+                                <input type="radio" name="gender" id="masculine" value="M"> <label for="masculine"> Masculine </label>
+                            </p>
+                            <p>
+                                <input type="radio" name="gender" id="feminine" value="F"> <label for="feminine"> Feminine </label>
+                            </p>
+                        </div>
+                        <input class="buttonHover" id="cancelButton" type="submit" value="Cancel">
+                        <input class="buttonHover" id="submitButton" type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </section>
+            <section id="homeSection" hidden>
+                <h2>This is the home</h2>
+            </section>
+            <section id="aboutSection" hidden>
+                <h2>This is the about</h2>
+            </section>
+            <section id="contactSection" hidden>
+                <h2>This is the contact</h2>
+            </section>
+            <section id="copyrightSection" hidden>
+                <h2>This is the copyright</h2>
+            </section>
+        </main>
+    </body>
+</html>

@@ -14,7 +14,7 @@
         </header>
         <nav>
             <ul id="menu">
-                <li id="home"> 
+                <li id="home" class="special"> 
                     Home 
                 </li>
                 <li id="about"> 
@@ -84,10 +84,10 @@
                                 Gender <span class="errorMessage" id="genderErrorMessage" ></span>
                             </p> 
                             <p>
-                                <input type="radio" name="gender" id="masculine" value="M"> <label for="masculine"> Masculine </label>
+                                <input class="gender" type="radio" name="gender" id="masculine" value="Masculine"> <label for="masculine"> Masculine </label>
                             </p>
                             <p>
-                                <input type="radio" name="gender" id="feminine" value="F"> <label for="feminine"> Feminine </label>
+                                <input class="gender" type="radio" name="gender" id="feminine" value="Feminine"> <label for="feminine"> Feminine </label>
                             </p>
                         </div>
                         <input class="buttonHover" id="cancelButton" type="submit" value="Cancel">
@@ -107,6 +107,9 @@
             <section id="copyrightSection" hidden>
                 <h2>This is the copyright</h2>
             </section>
+            <section id="formSubmission"></section>
         </main>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="./js/script.js" ></script>
     </body>
 </html>

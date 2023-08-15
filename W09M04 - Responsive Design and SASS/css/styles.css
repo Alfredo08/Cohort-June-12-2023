@@ -1,0 +1,76 @@
+h1{
+    font-size: 40px;
+}
+/* For mobile views and above */
+header, main, .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: none;
+}
+
+.navbar{
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo > img{
+    width: 50%;
+}
+
+.product{
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 4px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* For tablet views and above */
+@media only screen and (min-width: 600px){
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 4em;
+    }
+}
+
+/* For larger screen views and above */
+@media only screen and (min-width: 992px){
+    .menu{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        color: white;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    main{
+        flex-direction: row;
+        align-items: normal;
+    }
+
+    .product{
+        flex: 1;
+    }
+}

@@ -1,0 +1,63 @@
+/* Import variables */
+/* Variables in SASS */
+li {
+  font-size: 32px;
+}
+
+.div-items {
+  font-size: 32px;
+  color: green;
+}
+
+h1, .special {
+  color: green;
+  font-style: italic;
+  background-color: orange;
+}
+
+/* Nesting */
+.navbar {
+  background-color: aqua;
+}
+.navbar:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+.navbar .menu {
+  color: black;
+}
+.navbar .menu li {
+  padding: 50px;
+}
+
+/* Inheritance */
+.special {
+  border: 3px dotted blue;
+}
+
+/* Mixin */
+.item-one {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border-color: red;
+  border-style: dashed;
+}
+
+.item-two {
+  color: aqua;
+  background-color: gray;
+  font-size: 40px;
+  border-color: blue;
+  border-style: dashed;
+}
+
+.item-four {
+  color: green;
+  background-color: blue;
+  font-size: 60px;
+  border-color: yellow;
+  border-style: dashed;
+}
+
+/*# sourceMappingURL=sass-styles.css.map */

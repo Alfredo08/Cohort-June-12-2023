@@ -1,5 +1,5 @@
 # Breakout - jQuery + AJAX
-[Github Repository](https://github.com/Alfredo08/Breakouts/tree/main/jQuery%20%2B%20AJAX%20Breakout) | [Vimeo Video Recording](https://vimeo.com/846799520/f33b02b76c?share=copy)
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W09M04%20-%20jQuery%20%2B%20AJAX%20Breakout) | [Vimeo Video Recording]()
 
 ## Topics to cover
 * [X] What is jQuery and AJAX?

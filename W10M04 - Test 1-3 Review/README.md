@@ -1,5 +1,5 @@
 # Test 1-3 Review
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W10M04%20-%20Test%201-3%20Review) | [Vimeo Video Recording](https://vimeo.com/856036206/4594184705?share=copy)
 
 ## Test 1
 

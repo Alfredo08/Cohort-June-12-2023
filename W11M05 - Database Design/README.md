@@ -1,5 +1,5 @@
 # Database Design
-[Github Repository]() | [Vimeo Video Recording](https://vimeo.com/858257788/3b4b399897?share=copy)
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W11M05%20-%20Database%20Design) | [Vimeo Video Recording](https://vimeo.com/858257788/3b4b399897?share=copy)
 
 ## Topics to cover
 

@@ -1,5 +1,5 @@
 # M07 W17 | React Developer Workflow
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W17M07%20-%20React%20Developer%20Workflow) | [Vimeo Video Recording](https://vimeo.com/872183792/800599f227?share=copy)
 
 ### Topics to cover
 

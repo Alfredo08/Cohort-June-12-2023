@@ -1,0 +1,16 @@
+
+.navigation{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-options{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}

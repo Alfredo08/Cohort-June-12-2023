@@ -1,5 +1,5 @@
 # M07 W18 | Data Fetching and Other Side Effects
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W18M07%20-%20Data%20Fetching%20%26%20Other%20Side%20Effects) | [Vimeo Video Recording](https://vimeo.com/874395912/cef987a116?share=copy)
 
 ## Topics to cover
 

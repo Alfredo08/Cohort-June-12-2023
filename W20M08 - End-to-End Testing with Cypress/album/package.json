@@ -12,7 +12,9 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "cypress": "cypress open",
+    "test": "cypress run"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -23,5 +25,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "https://cors-anywhere.herokuapp.com/"
+  "proxy": "https://cors-anywhere.herokuapp.com/",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
 }

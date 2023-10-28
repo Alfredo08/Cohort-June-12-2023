@@ -1,5 +1,5 @@
 # M08 W20 | End-to-End Testing with Cypress
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W20M08%20-%20End-to-End%20Testing%20with%20Cypress) | [Vimeo Video Recording]()
 
 ## Topics to cover
 

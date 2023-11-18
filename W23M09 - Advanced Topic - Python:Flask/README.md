@@ -1,5 +1,5 @@
-# M09 W23 | Advanced Topic - Python/Flask
-[Github Repository]() | [Vimeo Video Recording]()
+# M09 W23 | Advanced Topic - Python
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W23M09%20-%20Advanced%20Topic%20-%20Python:Flask) | [Vimeo Video Recording](https://vimeo.com/886022212/a440d9499a?share=copy)
 
 ## Topics to cover 
 
@@ -8,11 +8,12 @@
 * [X] 3. Output
 * [X] 4. Variables
 * [X] 5. Conditionals
-* [X] 6. Loops
-* [X] 7. Functions
-* [X] 8. Dictionaries
-* [X] 9. Classes
-* [X] 10. Flask
+* [X] 6. Lists and tuples
+* [X] 7. Loops
+* [X] 8. Functions
+* [X] 9. Dictionaries
+* [X] 10. Classes
+
 
 ### Why Python?
 Here are some reasons why people in the development community think Python is great!

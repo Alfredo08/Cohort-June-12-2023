@@ -1,5 +1,5 @@
 # M09 W23 | Advanced Topic - Python/Flask
-[Github Repository]() | [Vimeo Video Recording](https://vimeo.com/888295606/041579c8cb?share=copy)
+[Github Repository](https://github.com/Alfredo08/Cohort-June-12-2023/tree/main/W24M09%20-%20Advanced%20Topic%20-%20Python:Flask) | [Vimeo Video Recording](https://vimeo.com/888295606/041579c8cb?share=copy)
 
 ## Topics to cover 
 

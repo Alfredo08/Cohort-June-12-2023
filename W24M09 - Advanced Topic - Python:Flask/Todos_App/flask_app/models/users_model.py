@@ -1,4 +1,5 @@
 from flask_app.config.mysqlconnection import connectToMySQL
+from flask_app.models import todos_model
 from flask import flash
 from flask_app import DATABASE
 import re
@@ -12,7 +13,8 @@ class User:
         self.updated_at = data["updated_at"]
         self.email = data["email"]
         self.password = data["password"]
-    
+        self.todo_list = []
+        
     @classmethod
     def create_one(cls, data):
         query = """
@@ -33,6 +35,32 @@ class User:
         if len(results) > 0:
             return cls(results[0])
         return None
+    
+    @classmethod
+    def get_one_with_todos(cls, data):
+        query = """
+                SELECT *
+                FROM users u LEFT JOIN todos t
+                    ON u.id = t.user_id
+                WHERE u.id = %(id)s;
+                """
+        results = connectToMySQL(DATABASE).query_db(query, data)
+        current_user = cls(results[0])
+
+        for row in results:
+            if row["description"] != None:
+                current_todo = {
+                    "id" : row["t.id"],
+                    "description" : row["description"],
+                    "status" : row["status"],
+                    "created_at" : row["t.created_at"],
+                    "updated_at" : row["t.updated_at"],
+                    "user_id" : row["user_id"]
+                }
+                current_todo_object = todos_model.Todo(current_todo)
+                current_user.todo_list.append(current_todo_object)
+        print("Todos", current_user.todo_list)
+        return current_user
     
     @staticmethod
     def validate_registration(data):

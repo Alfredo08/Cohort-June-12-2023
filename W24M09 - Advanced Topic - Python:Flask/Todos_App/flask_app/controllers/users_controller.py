@@ -9,12 +9,6 @@ bcrypt = Bcrypt(app)
 def login_registration():
     return render_template('index.html')
 
-@app.route('/home', methods=['GET'])
-def home():
-    if 'user_id' not in session:
-        return redirect('/')
-    return render_template('home.html', list_todos = [])
-
 @app.route('/user/new', methods=['POST'])
 def create_user():
     if User.validate_registration(request.form) == False:
@@ -51,3 +45,13 @@ def process_login():
 def process_logout():
     session.clear()
     return redirect('/')
+
+@app.route('/user/<int:id>', methods=['GET'])
+def user_todos(id):
+    if 'user_id' not in session:
+        return redirect('/')
+    data = {
+        "id" : id
+    }
+    current_user = User.get_one_with_todos(data)
+    return render_template('user_todos.html', current_user = current_user)

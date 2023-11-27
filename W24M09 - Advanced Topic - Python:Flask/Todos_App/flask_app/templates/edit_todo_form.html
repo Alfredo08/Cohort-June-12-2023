@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Add todo page of Todos App </title>
+        <title> Edit todo page of Todos App </title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     </head>
     <body>
@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="d-flex mt-5 col-10">
                     <h1>
-                        Hey {{session['first_name']}} {{session['last_name']}} you are now in the 'Adding a new todo section'
+                        Hey {{session['first_name']}} {{session['last_name']}} you are now in the 'Editing a todo section'
                     </h1>
                 </div>
                 <div class="d-flex col-2 mt-5">
@@ -25,34 +25,34 @@
             </div>
             <div class="row">
                 <div class="d-flex-col align-items-center p-5 col-6">
-                    <form action="/todo/new" method="POST" >
+                    <form action="/todo/edit/{{todo.id}}" method="POST" >
                         <div>
                             <label for="description">
-                                New todo:
+                                Current todo:
                             </label>
-                            <input class="form-control" id="description" name="description" >
+                            <input class="form-control" id="description" name="description" value="{{todo.description}}">
                         </div>
                         <div>
                             <label for="status">
                                 Status:
                             </label>
                             <select id="status" name="status" class="form-control">
-                                <option value="complete">
+                                <option {% if todo.status == "complete" %} selected {% endif %}value="complete">
                                     Complete
                                 </option>
-                                <option value="in_progress">
+                                <option {% if todo.status == "in_progress" %} selected {% endif %}value="in_progress">
                                     In Progress
                                 </option>
-                                <option value="paused">
+                                <option {% if todo.status == "paused" %} selected {% endif %}value="paused">
                                     Paused
                                 </option>
-                                <option value="cancelled">
+                                <option {% if todo.status == "cancelled" %} selected {% endif %}value="cancelled">
                                     Cancelled
                                 </option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-success mt-3">
-                            Add todo
+                            Edit todo
                         </button>
                     </form>
                 </div>

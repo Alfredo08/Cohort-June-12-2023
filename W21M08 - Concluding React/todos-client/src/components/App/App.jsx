@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="container">
       <Routes>
-        <Route path="/" element={<Login/>}/>
+        <Route path="/" element={<Login setUserInfo={setUserInfo} setIsLoggedIn={setIsLoggedIn}/>}/>
         <Route path="/login" element={<Login setUserInfo={setUserInfo} setIsLoggedIn={setIsLoggedIn}/>}/>
         <Route path="/home" Component={() => {
           if(isLoggedIn){
